@@ -85,6 +85,23 @@ const Login = () => {
             <p className="auth-footer">
               Don't have an account? <Link to="/register">Create one</Link>
             </p>
+
+            <div style={{
+              marginTop: '1.25rem',
+              padding: '0.85rem',
+              background: 'rgba(91,154,166,0.06)',
+              border: '1px solid rgba(91,154,166,0.12)',
+              borderRadius: '10px',
+              fontSize: '0.75rem',
+              color: 'var(--text-secondary)',
+              lineHeight: '1.7'
+            }}>
+              <div style={{ fontWeight: 600, color: 'var(--teal)', marginBottom: '0.35rem', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+                Demo Credentials
+              </div>
+              <div><strong>Admin:</strong> lokesh@ethara.ai / admin123</div>
+              <div><strong>Member:</strong> priya@ethara.ai / member123</div>
+            </div>
           </div>
         </div>
       </div>

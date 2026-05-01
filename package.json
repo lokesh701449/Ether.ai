@@ -1,0 +1,14 @@
+{
+  "name": "ethara-ai",
+  "version": "1.0.0",
+  "description": "Team Task Manager - Full Stack Application",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "build:client": "cd client && npm run build",
+    "start": "cd server && node server.js",
+    "build": "npm run install:all && npm run build:client"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
